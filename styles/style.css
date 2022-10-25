@@ -2,3 +2,15 @@
 .mt-73 {
     margin-top: 73px;
 }
+.my-70{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+/* height & width */
+/* toast */
+.c-toast{
+    position: absolute;
+    right: 0px;
+    top: 931px;
+    
+}

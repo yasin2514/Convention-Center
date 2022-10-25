@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>convention-center</title>
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/da4feda7ea.js" crossorigin="anonymous"></script>
   <!-- bootstrap-link -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
   <!-- custom-css -->
@@ -46,55 +48,88 @@
     </nav>
     <!-- navbar-end -->
     <!-- carousel-start -->
-   <section class="mt-73">
-    <div id="carouselExampleCaptions" class="carousel carousel-dark  slide" data-bs-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <section class="mt-73">
+      <div id="carouselExampleCaptions" class="carousel carousel-dark  slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="images/cover-4.jpg" class="d-block w-100 " alt="weeding">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>The perfect venue for your next event</h4>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-dark">Book Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover-2.jpg" class="d-block w-100" alt="weeding">
+            <div class="carousel-caption d-none d-md-block ">
+              <h4>The perfect venue for your next event</h4>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-dark">Book Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover-3.jpg" class="d-block w-100" alt="weeding">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>The perfect venue for your next event</h4>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-dark">Book Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/cover-4.jpg" class="d-block w-100" alt="weeding">
-          <div class="carousel-caption d-none d-md-block">
-            <h4>The perfect venue for your next event</h4>
-            <p>Some representative placeholder content for the first slide.</p>
-            <button class="btn btn-dark">Book Now</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/cover-2.jpg" class="d-block w-100" alt="weeding">
-          <div class="carousel-caption d-none d-md-block ">
-            <h4>The perfect venue for your next event</h4>
-            <p>Some representative placeholder content for the first slide.</p>
-            <button class="btn btn-dark">Book Now</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/cover-3.jpg" class="d-block w-100" alt="weeding">
-          <div class="carousel-caption d-none d-md-block">
-            <h4>The perfect venue for your next event</h4>
-            <p>Some representative placeholder content for the first slide.</p>
-            <button class="btn btn-dark">Book Now</button>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-   </section>
+    </section>
     <!-- carousel-end -->
   </header>
-  <main>
-    <section>
-    
+  <main class="my-70 ">
+
+    <!-- album-section-start -->
+
+    <section class="container ">
+      <div class="row gy-3 d-flex  align-items-center justify-content-center">
+        <div class="col col-12 col-md-6 order-2 order-md-1">
+          <img src="images/wedding.png" class="img-fluid" alt="weeding">
+
+        </div>
+        <div class="col col-12 col-md-6 order-1 order-md-2">
+          <h3 class="fw-bold">Every Moment is Precious</h3>
+          <p>This was the much awaited day for both of you and after a few days your status will change from single to
+            married. Wish you a happy wedding day followed by happy married life in advance. You two are made for each
+            other.</p>
+          <button class="btn btn-primary">Explore our album <i class="fa-solid fa-arrow-right ms-1"></i></button>
+
+        </div>
+
     </section>
+    <!-- toast -->
+    <div class="toast align-items-center  show c-toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          Hello, world! This is a toast message.
+        </div>
+        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+
+    <!-- album-section-end -->
+
   </main>
 
 
